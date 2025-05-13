@@ -1,0 +1,13 @@
+Address,Risk Score,Risk Level,Token Behavior
+0x6B175474E89094C44Da98b954EedeAC495271d0F,80,🔴 High Risk,"The token can be classified as: **Stable Utility**.
+
+### Explanation:
+- **Name and Symbol**: The contract explicitly states the name as ""Dai Stablecoin"" and symbol as ""DAI"", both of which are well-known identifiers for a decentralized stablecoin pegged to the US Dollar.
+- **Contract Functionality**: The implementation includes standard ERC-20 functions, authorization mechanisms (e.g., `rely`, `deny`), and token minting/burning capabilities. These features are consistent with MakerDAO’s Dai stablecoin infrastructure.
+- **Decimals**: The `decimals` value is set to **18**, which is typical for ERC-20 tokens like Dai.
+- **Licensing & Documentation**: The code includes references to well-known, established open-source licenses and contains mature, battle-tested logic derived from MakerDAO's Deployment Stabilization System (`dss`).
+- **Owner Address**: The owner address `0x6B175474E89094C44Da98b954EedeAC495271d0F` is known to be associated with MakerDAO governance, reinforcing that this is a legitimate and established token.
+- **Mint/Burn Mechanism**: Controlled by the `auth` modifier, meaning only authorized addresses can mint, ensuring supply is managed — a feature consistent with a stablecoin system.
+- **Top Holder Share is 85%**: While normally concerning, given the clear context that this is Dai (DAI), it aligns with MakerDAO-reserved balances or institutional allocations used for system stability or governance purposes.
+
+Based on the **code identity, structure, vintage, and ownership**, this is clearly a mainnet Dai (DAI) clone. Therefore, the token is a **Stable Utility** token."
