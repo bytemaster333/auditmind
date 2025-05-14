@@ -3,3 +3,4 @@ requests~=2.32.3
 python-dotenv~=1.1.0
 streamlit~=1.45.0
 aiohttp~=3.11.18
+fpdf
